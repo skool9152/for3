@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satisfacción del Cliente</title>
+    <link rel="stylesheet" href="estilo3.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Satisfacción del Cliente</h2>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label>¿Estás satisfecho con el servicio?</label>
+        <select id="satisfaccion" required>
+            <option value="" disabled selected>Selecciona...</option>
+            <option value="si">Sí</option>
+            <option value="no">No</option>
+        </select>
+
+        <label>¿Recomendarías el servicio?</label>
+        <select id="recomendacion" required>
+            <option value="" disabled selected>Selecciona...</option>
+            <option value="si">Sí</option>
+            <option value="no">No</option>
+            <option value="no-lo-se">No lo sé</option>
+        </select>
+
+        <label>¿Hay aspectos que mejorar?</label>
+        <select id="mejorar" required>
+            <option value="" disabled selected>Selecciona...</option>
+            <option value="si">Sí</option>
+            <option value="no">No</option>
+        </select>
+
+        <label for="cuales">¿Cuáles serían?</label>
+        <input type="text" id="cuales">
+
+        <label for="comentario">Comentario Adicional:</label>
+        <textarea id="comentario" rows="4"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <p class="thank-you">Gracias por compartir su opinión</p>
+</div>
+
+</body>
+</html>
