@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.thank-you {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+body {
+    animation-name: rainbow;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+  }
+  @keyframes rainbow {
+    0% {
+      background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    }
+    14% {
+      background: linear-gradient(90deg, violet, red, orange, yellow, green, blue, indigo);
+    }
+    29% {
+      background: linear-gradient(90deg, indigo, violet, red, orange, yellow, green, blue);
+    }
+    43% {
+      background: linear-gradient(90deg, blue, indigo, violet, red, orange, yellow, green);
+    }
+    57% {
+      background: linear-gradient(90deg, green, blue, indigo, violet, red, orange, yellow);
+    }
+    71% {
+      background: linear-gradient(90deg, yellow, green, blue, indigo, violet, red, orange);
+    }
+    86% {
+      background: linear-gradient(90deg, orange, yellow, green, blue, indigo, violet, red);
+    }
+    100% {
+      background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    }
+  }
